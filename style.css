@@ -1,0 +1,85 @@
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(236, 214, 194);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    height: 120vh;
+    width: 25vw;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    color: #333;
+    font-size: 24px;
+}
+
+h2,
+h3 {
+    color: brown;
+    font-family: "Young Serif", serif;
+
+}
+
+p {
+    color: #666;
+}
+
+.preparation,
+.ingredients,
+.instructions,
+.nutrition {
+    margin-top: 20px;
+}
+
+.preparation span,
+.nutrition span {
+    display: block;
+    margin-top: 5px;
+}
+
+li::marker {
+    color: brown;
+}
+
+table {
+    text-align: left;
+    margin-left: 25px;
+
+
+
+}
+
+th {
+    padding-right: 80px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+
+}
